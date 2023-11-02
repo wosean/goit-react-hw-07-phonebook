@@ -11,12 +11,12 @@ export const ContactWrap = styled.li`
   margin-right: auto;
   margin-bottom: 10px;
 `;
-export const ContacNsme = styled.p`
+export const ContactName = styled.p`
   width: 166px;
   height: 30px;
   font-size: 16px;
 `;
-export const ContacNumber = styled.p`
+export const ContactNumber = styled.p`
   width: 110px;
   font-size: 16px;
 `;
