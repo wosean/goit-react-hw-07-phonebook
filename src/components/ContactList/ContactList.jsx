@@ -20,7 +20,7 @@ export default function ContactList() {
     dispatch(fetchContacts());
   }, [dispatch]);
   // console.log(arrContacts);
-  const showArr = Array.isArray(arrContacts) && arrContacts.length;
+  const showArr = Array.isArray(arrContacts) && arrContacts.length > 0;
 
   return (
     <Wrap>

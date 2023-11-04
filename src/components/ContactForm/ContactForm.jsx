@@ -10,7 +10,7 @@ import { addContact } from 'redux/operations';
 
 export default function ContactForm() {
   const dispatch = useDispatch();
-  const contacts = useSelector(state => state.contacts.users);
+  const contacts = useSelector(state => state.contacts.items);
 
   const handleSubmit = event => {
     event.preventDefault();

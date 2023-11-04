@@ -1,7 +1,7 @@
 const { createSlice } = require('@reduxjs/toolkit');
 
 const filterInit = {
-  filter: null,
+  select: null,
 };
 
 const filterSlice = createSlice({
